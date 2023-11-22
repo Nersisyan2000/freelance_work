@@ -1,0 +1,18 @@
+.mobile_header_main_div {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 20px 10px;
+}
+
+.mobile_header_item {
+    color: var(--light-text, #E4E5EA);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-right: 16px;
+   
+}

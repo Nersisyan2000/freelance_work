@@ -1,0 +1,31 @@
+.title_footer {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    color: var(--dark-gray, #656566);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.info_in_list_component {
+
+    color: var(--light-text, #E4E5EA);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.footer_list_info_div {
+    display: flex;
+    flex-direction: row;
+}

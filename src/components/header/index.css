@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header_main_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 52px;
+}
+
+.part_second {
+    margin-left: 10px;
+}
+
+.header_section {
+    display: flex;
+    flex-direction: row;
+}
+
+.header_section_text {
+    margin-left: 30px;
+    color: var(--light-text, #E4E5EA);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header_section_text:first-child {
+    margin-left: 0px;
+}
+
+.power_info {
+    width: 145px;
+    color: rgba(228, 229, 234, .5);
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.phone {
+    color: var(--light-text, #E4E5EA);
+    text-align: right;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 137px;
+    margin-right: 17px;
+}
+.social_icon_section{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.social_icon {
+    margin-left: 30px;
+    width: 20px;
+    height: 20px;
+}

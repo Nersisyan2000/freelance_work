@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;900&family=Montserrat:wght@100;200;400;900&display=swap');
+
+.right_article_item_main_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+    width: 140px;
+    margin: 30px 30px 0 30px;
+    margin-right: 0px;
+}
+
+.title {
+    color: #E4E5EA;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.info {
+    width: 128px;
+    color: rgba(228, 229, 234, 0.7);
+    text-align: end;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 6px;
+}
+
+.line_and_title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title_line {
+    width: 10px;
+    height: 1px;
+    background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 320px) {
+    .right_article_item_main_div {
+        margin: 0;
+        align-items: start;
+    }
+
+    .title {
+        font-size: 13px;
+        font-family: Montserrat;
+    }
+
+    .info {
+        text-align: start;
+    }
+
+
+}
